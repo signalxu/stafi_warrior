@@ -33,4 +33,12 @@
   src: url('../fonts/SourceSansPro-Regular.otf') format('opentype');
 }
 
+@font-face {
+  font-family: 'Anton';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../fonts/Anton-Regular.ttf') format('truetype');
+}
+
 
