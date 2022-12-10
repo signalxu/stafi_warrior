@@ -1,5 +1,7 @@
 import { Meta } from '../components/Meta'
 import { Recruit } from '../components/layout/Recurit'
+import { Warriors } from '../components/layout/Warriors'
+import { ContributionBoard } from '../components/layout/Contributionboard'
 import Link from 'next/link'
 
 export default function Home() {
@@ -46,8 +48,10 @@ export default function Home() {
                 </div>
               </div>
             </section>
-
+            
+          <ContributionBoard/>
           <Recruit/>
+          <Warriors/>
 
           </div>
         </div>

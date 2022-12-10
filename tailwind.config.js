@@ -21,6 +21,10 @@ module.exports = {
         '#1F2D41': '#1F2D41',
         '#172231': '#172231',
         '#070B10': '#070B10',
+        '#172636': '#172636',
+        '#1A2835': '#1A2835',
+        'hoverboard_bg': '#4287EA',
+        'hoverboardvia_bg': '#112541',
       },
       backgroundImage: {
         'bgImage': "url('/image/bg_image.svg')",
