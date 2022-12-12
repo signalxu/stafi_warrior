@@ -75,12 +75,12 @@ export function ContributionBoard() {
 
   return(
     <>
-      <div className="py-24 px-16">
+      <div className="py-12 md:py-24 px-2 md:px-16">
         <img src="/image/beekeeper_icon.png" className="mx-auto w-24"/>
-        <h1 className="text-center font-anton text-xl text-#FFA540 tracking-widest">
+        <h1 className="text-center font-anton text-base md:text-xl text-#FFA540 tracking-widest md:tracking-widest">
           Warrior
         </h1>
-        <h2 className="text-white font-anton text-5xl text-center mt-6 tracking-[.3em]">
+        <h2 className="text-white font-anton text-4xl md:text-5xl text-center mt-6 tracking-[.3em] md:tracking-[.3em]">
           Contribution Board
         </h2>
 
@@ -97,7 +97,7 @@ export function ContributionBoard() {
         >
         {slidesNumber.map((item,index) => (
           <SwiperSlide key={index}>
-            <div className='grid grid-cols-3 grid-rows-3 gap-4 py-14'>
+            <div className='grid grid-cols-3 grid-rows-3 gap-2 md:gap-4 py-10 md:py-14'>
               {slides.slice(index*9,index*9+9).map((item) => (
                 <Board
                 month={item.month}

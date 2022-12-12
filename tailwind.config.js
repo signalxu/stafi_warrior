@@ -25,6 +25,9 @@ module.exports = {
         '#1A2835': '#1A2835',
         'hoverboard_bg': '#4287EA',
         'hoverboardvia_bg': '#112541',
+        '#343223':'#343223',
+        '#100F07':'#100F07',
+        '#855921':'#855921',
       },
       backgroundImage: {
         'bgImage': "url('/image/bg_image.svg')",
