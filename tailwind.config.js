@@ -30,8 +30,8 @@ module.exports = {
         '#855921':'#855921',
       },
       backgroundImage: {
-        'bgImage': "url('/image/bg_image.svg')",
-        'bgWave':"url('/image/bg_wave.png')",
+        'bgImage': "url('/image/bg_image.png')",
+        'bgWave':"url('/image/bg_wave.webp')",
       },
     },
   },

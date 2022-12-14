@@ -53,7 +53,7 @@ export function WarriorAward() {
           >
           {slidesNumber.map((item,index) => (
             <SwiperSlide key={index}>
-              <div className='grid grid-cols-2 gap-4 md:gap-8 py-6 md:py-14'>
+              <div className='grid grid-cols-2 gap-4 md:gap-8 py-6 md:py-14' key={index}>
                 {awardList.slice(index*2,index*2+2).map((item) => (
                   <img
                     src={item.image}
