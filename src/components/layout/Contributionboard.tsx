@@ -86,10 +86,11 @@ export function ContributionBoard() {
 
       <div className='w-full'>
         <Swiper
-          modules={[Pagination]} 
+          modules={[Pagination,Autoplay]} 
           pagination={{ clickable: true }}
           spaceBetween={50}
           slidesPerView={1}
+          autoplay={{delay:3000}}
           speed={1000}
           onSlideChange={() => console.log('slide change')}
           onSwiper={(swiper) => console.log(swiper)}

@@ -41,11 +41,12 @@ export function WarriorAward() {
         </p>
         <div className='w-full'>
           <Swiper
-            modules={[Pagination]} 
+            modules={[Pagination,Autoplay]} 
             pagination={{ clickable: true }}
             spaceBetween={50}
             slidesPerView={1}
             speed={1000}
+            autoplay={{delay:3000}}
             onSlideChange={() => console.log('slide change')}
             onSwiper={(swiper) => console.log(swiper)}
             className="w-full mt-4 md:mt-10"

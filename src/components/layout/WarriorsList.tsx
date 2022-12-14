@@ -113,25 +113,25 @@ export function WarriorsList() {
       id:1,
       title:'Twitter Operator',
       description:'Daily operation of StaFi’s Twitter handles, like drafting tweets and engaging the community with the progress of StaFi products.',
-      url:'/',
+      url:'https://forms.gle/mPb92FUDvxhzi2EcA',
     },
     {
       id:2,
       title:'Forum Manager',
       description:'Manage and operate StaFi & StaFiHub governance forums and initiate discussions and proposals based on the StaFi Protocol’s latest progress.',
-      url:'/',
+      url:'https://forms.gle/ChyqWUa4zijd7vTA6',
     },
     {
       id:3,
       title:'BD Moderator',
       description:'Help StaFi Protocol to pitch third-party integrations for rToken ecosystem.',
-      url:'/',
+      url:'https://forms.gle/EQj9dgqUWnyzFL6TA',
     },
     {
       id:4,
       title:'Testing Moderator',
       description:'Provide full testing for StaFi products and output optimization suggestions on functional bugs or UI/UX, the StaFi team will optimize it based on the feedback from testing moderators.',
-      url:'/',
+      url:'https://forms.gle/JpqPJtfhxKrc5Fmq6',
     },
 
   ]
@@ -141,19 +141,19 @@ export function WarriorsList() {
       id:1,
       title:'Twitter Influencer',
       description:'Daily operation of StaFi’s Twitter handles, like drafting tweets and engaging the community with the progress of StaFi products.',
-      url:'/',
+      url:'https://forms.gle/wkzKD9F8oDurijQbA',
     },
     {
       id:2,
       title:'Youtube Influencer',
       description:'Manage and operate StaFi & StaFiHub governance forums and initiate discussions and proposals based on the StaFi Protocol’s latest progress.',
-      url:'/',
+      url:'https://forms.gle/xQf96wjNbVSwF5jE6',
     },
     {
       id:3,
       title:'Offline Activity Manager',
       description:'Help StaFi Protocol to pitch third-party integrations for rToken ecosystem.',
-      url:'/',
+      url:'https://forms.gle/Sw412aSEcwo9AVw79',
     },
   ]
 
@@ -195,7 +195,7 @@ export function WarriorsList() {
                           </Disclosure.Button>
                           <Disclosure.Panel className="pl-10 pt-4 pb-6">
                             <p className='text-base text-#5B6872 leading-relaxed tracking-wide'> {item.description} </p>
-                            <Link href={item.url}>
+                            <Link href={item.url} target="_blank">
                               <div className='mt-6 flex gap-2'>
                                 <p className='text-base text-#00F3AB'> Apply </p>
                                 <img src='/image/apply_icon.svg' className='w-4'/>
@@ -234,7 +234,7 @@ export function WarriorsList() {
                           </Disclosure.Button>
                           <Disclosure.Panel className="pl-10 pt-4 pb-6">
                             <p className='text-base text-#5B6872 leading-relaxed tracking-wide'> {item.description} </p>
-                            <Link href={item.url}>
+                            <Link href={item.url} target="_blank">
                               <div className='mt-6 flex gap-2'>
                                 <p className='text-base text-#00F3AB'> Apply </p>
                                 <img src='/image/apply_icon.svg' className='w-4'/>

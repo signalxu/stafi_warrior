@@ -14,10 +14,10 @@ export function Card({
 }:CardProps){  
   return (
     <div className='bg-#172636/15 border-[1px] border-#1A2835 rounded-[15px]'>
-      <div className='px-6 pt-6 pb-8'>
+      <div className='px-8 pt-6 pb-8'>
         <img src={image} className='w-12'/>
         <div className='mt-6 text-lg font-bold text-[#9DAFBE]'>{title}</div>
-          <Link href={url}>
+          <Link href={url} target="_blank">
             <div className='mt-6 flex gap-2'>
               <p className='text-base text-#00F3AB'> Apply </p>
               <img src='/image/apply_icon.svg' className='w-4'/>

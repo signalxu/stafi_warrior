@@ -16,7 +16,7 @@ export default function Home() {
         image=''
       />
       <div className='bg-blackColor'>
-        <div className='bg-bgImage bg-cover bg-repeat'>
+        <div className='bg-bgWave bg-contain bg-repeat bg-center'>
           <div className='max-w-7xl mx-auto'>
             
             <section>
@@ -25,7 +25,9 @@ export default function Home() {
                   <img src='/image/stafi_font.svg' className='mx-auto h-20 md:h-36'/>
                   <img src='/image/warrior_font.svg' className='mx-auto h-20 md:h-36 mt-4'/>
                   <div className='flex gap-6 md:gap-12 mt-12 md:mt-24 justify-center'>
-                    <button className='bg-gradient-to-r from-#0093ED to-#00F3AB text-black text-sm md:text-base font-bold px-8 py-4 md:px-10 md:py-4 rounded-[12px]'> Apply Now</button>
+                    <Link href="#apply">
+                      <button className='bg-gradient-to-r from-#0093ED to-#00F3AB text-black text-sm md:text-base font-bold px-8 py-4 md:px-10 md:py-4 rounded-[12px]'> Apply Now</button>
+                    </Link>
                     <button className='border-[1px]	border-#5B6872 text-#9DAFBE text-sm md:text-base font-bold px-8 py-4 md:px-10 md:py-4 rounded-[12px]'> Learn More</button>
                   </div>
                   <p className='text-center text-#5B6872 text-sm md:text-base mt-16 px-4 md:px-32 tracking-wide md:tracking-wide leading-relaxed md:leading-relaxed'>
@@ -52,13 +54,22 @@ export default function Home() {
             </section>
           <WarriorsList/>
           <WarriorAward/>
-          <ContributionBoard/>
-          <Recruit/>
-          <Warriors/>
-
           </div>
         </div>
       </div>
+      <div className='bg-blackColor'>
+        <div className='bg-bgImage bg-contain bg-repeat bg-center'>
+          <div className='max-w-7xl mx-auto'>
+          <ContributionBoard/>
+          <Recruit/>
+          <div id='apply'>
+            <Warriors/>
+          </div>
+          </div>
+        </div>
+      </div>
+
+          
       
     </>
   )
