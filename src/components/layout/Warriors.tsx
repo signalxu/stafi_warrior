@@ -32,7 +32,7 @@ const cardList = [
     url:'https://forms.gle/EQj9dgqUWnyzFL6TA'
   },
   {
-    title:'Offline Activity Manager',
+    title:'Off-line Activity Manager',
     image:'/image/activity_icon.svg',
     url:'https://forms.gle/Sw412aSEcwo9AVw79'
   },

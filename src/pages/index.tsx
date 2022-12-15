@@ -33,7 +33,7 @@ export default function Home() {
                     </Link>
                   </div>
                   <p className='text-center text-#5B6872 text-sm md:text-base mt-16 px-4 md:px-32 tracking-wide md:tracking-wide leading-relaxed md:leading-relaxed'>
-                    StaFi Warriors team consists of the community member who believe StaFi‘s concepts and prospects deeply. They are working together with the core team to advocate and generalize StaFi’s vision and mission to build an open, free and self-governed StaFi community.
+                    StaFi Warriors team consists of the community members who believe StaFi‘s concepts and prospects deeply. They are working together with the core team to advocate and generalize StaFi’s vision and mission to build an open, free and self-governed StaFi community.
                   </p>
                   <div className='mt-16 md:mt-32 px-4 md:px-24'>
                     <div className='grid grid-cols-3 gap-4 md:gap-8'>

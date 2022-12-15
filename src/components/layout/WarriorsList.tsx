@@ -142,19 +142,19 @@ export function WarriorsList() {
     {
       id:1,
       title:'Twitter Influencer',
-      description:'Daily operation of StaFi’s Twitter handles, like drafting tweets and engaging the community with the progress of StaFi products.',
+      description:'Promote StaFi’s products and brand on twitter by using own social influence.',
       url:'https://forms.gle/wkzKD9F8oDurijQbA',
     },
     {
       id:2,
       title:'Youtube Influencer',
-      description:'Manage and operate StaFi & StaFiHub governance forums and initiate discussions and proposals based on the StaFi Protocol’s latest progress.',
+      description:'Create product demo and explanatory videos that will help the community understand StaFi’s product and boost the brand promotion of StaFi’s products as a whole.',
       url:'https://forms.gle/xQf96wjNbVSwF5jE6',
     },
     {
       id:3,
-      title:'Offline Activity Manager',
-      description:'Help StaFi Protocol to pitch third-party integrations for rToken ecosystem.',
+      title:'Off-line Activity Manager',
+      description:'Arrange off-line meetups and seminars locally for StaFi community member to concentrate the community and expand the branding.',
       url:'https://forms.gle/Sw412aSEcwo9AVw79',
     },
   ]
