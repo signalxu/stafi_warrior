@@ -10,59 +10,70 @@ import "swiper/css/autoplay"
 
 const slides =[
   {
+    id:11,
     month:'11',
     date: 'November，2022',
-    url:'/'
+    url:'https://commonwealth.im/stafi/discussion/8051-warrior-contribution-submissionassessment2022-november'
   },
   {
+    id:10,
     month:'10',
     date: 'October，2022',
-    url:'/'
+    url:'https://commonwealth.im/stafi/discussion/7417-warrior-contribution-submissionassessment2022-october'
   },
   {
+    id:9,
     month:'9',
     date: 'September，2022',
-    url:'/'
+    url:'https://twitter.com/StaFi_Protocol/status/1580872961724030978'
   },
   {
+    id:8,
     month:'8',
     date: 'August，2022',
-    url:'/'
+    url:'https://twitter.com/StaFi_Protocol/status/1570018838078717954'
   },
   {
+    id:7,
     month:'7',
     date: 'July，2022',
-    url:'/'
+    url:'https://twitter.com/StaFi_Protocol/status/1557662998323466240'
   },
   {
+    id:6,
     month:'6',
     date: 'June，2022',
-    url:'/'
+    url:'https://twitter.com/StaFi_Protocol/status/1547548449763123204'
   },
   {
+    id:5,
     month:'5',
     date: 'May，2022',
-    url:'/'
+    url:'https://twitter.com/StaFi_Protocol/status/1536715167417122817'
   },
   {
+    id:4,
     month:'4',
     date: 'April，2022',
-    url:'/'
+    url:'https://twitter.com/StaFi_Protocol/status/1526115391079976960'
   },
   {
+    id:3,
     month:'3',
     date: 'March，2022',
-    url:'/'
+    url:'https://twitter.com/StaFi_Protocol/status/1514579473697415170'
   },
   {
+    id:2,
     month:'2',
     date: 'February，2022',
-    url:'/'
+    url:'https://twitter.com/StaFi_Protocol/status/1503713022472495112'
   },
   {
+    id:1,
     month:'1',
     date: 'January，2022',
-    url:'/'
+    url:'https://twitter.com/StaFi_Protocol/status/1493159510688821251'
   },
 
 ]
@@ -104,7 +115,7 @@ export function ContributionBoard() {
                 month={item.month}
                 date={item.date}
                 url={item.url}
-                key={item.date}
+                key={item.id}
                 />
               ))}
             </div>

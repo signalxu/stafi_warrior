@@ -92,19 +92,19 @@ export function WarriorsList() {
       id:10,
       title:'StaFi Ambassador',
       avatar:'/image/avatar10_icon.png',
-      name:'Miracle Ikechi',
-      description:"It's Miracle over here, a blockchain enthusiast from Nigeria and I'm quite busy making sure you all have the best on StaFi twitter handles.",
+      name:'Kenny',
+      description:"Hi, I'm Kenny from Nigeria and I've been an adopter of the Blockchain technology for a few years new. Happy to Be a StaFi Warrior.",
       twitter_url:'/',
-      twitter_username:'@Mazi55480281',
+      twitter_username:'@cosmosadvocate',
     },
     {
       id:11,
       title:'StaFi Ambassador',
       avatar:'/image/avatar11_icon.png',
-      name:'Kenny',
-      description:"Hi, I'm Kenny from Nigeria and I've been an adopter of the Blockchain technology for a few years new. Happy to Be a StaFi Warrior.",
+      name:'Miracle Ikechi',
+      description:"I’m Joshua Ikechukwu here. I’m a huge fan of cosmos and I’ve been with them as a dedicated community member for over a year.",
       twitter_url:'/',
-      twitter_username:'@cosmosadvocate',
+      twitter_username:'@Joshyysmartt',
     },
   ]
   
@@ -185,8 +185,8 @@ export function WarriorsList() {
 
                 <div className='px-4 py-6'>
                   {ModeratorList.map((item) => (
-                    <div className='mt-6'>
-                      <Disclosure key={item.id}>
+                    <div className='mt-6' key={item.id}>
+                      <Disclosure >
                       {({ open }) => (
                         <>
                           <Disclosure.Button className="text-xl text-#9DAFBE flex gap-4 items-center">

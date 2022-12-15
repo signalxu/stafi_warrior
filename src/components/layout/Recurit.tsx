@@ -16,13 +16,13 @@ export function Recruit() {
             Financial Support
           </h3>
           <p className="text-center text-sm md:text-base mt-8 text-#5B6872 leading-relaxed  md:leading-relaxed tracking-wide md:tracking-wide">
-            Monthly salary base（400～1200$USDT in $FIS) and bonus (0~200$USDT in $FIS) based on the contribution and performance. Apart from that, warriors have the opportunities to get the quarterly Warrior Star Award(500 FIS) and yearly Thanksgiving Gift (5000FIS) rewards.
+            Monthly salary base（400～1200$USDT in $FIS) and bonus (0~200$USDT in $FIS) based on the contribution and performance. Apart from that, warriors have the opportunities to get the quarterly Warrior Star Award(500 $FIS) and yearly Thanksgiving Gift (5000 $FIS) rewards.
           </p>
           <div className="mt-12 grid grid-cols-5 md:grid-cols-11 gap-2">
             <div className="col-span-2">
               <img src="/image/usdtprize_icon.svg" className="mx-auto w-14"/>
               <p className="text-sm md:text-base text-[#00F3AB] text-center mt-6"> 400～1200 $USDT </p>
-              <p className="text-sm md:text-base text-#5B6872 text-center mt-2"> salary base </p>
+              <p className="text-sm md:text-base text-#5B6872 text-center mt-2"> Salary Base </p>
             </div>
             <div className="col-span-1 text-base text-[#00F3AB] text-center mt-[4.8rem]">
               +

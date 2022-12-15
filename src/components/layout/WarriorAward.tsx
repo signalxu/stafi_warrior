@@ -8,17 +8,13 @@ import "swiper/css/autoplay"
 
 const awardList = [
   {
-    image:"/image/2022Q1rewards_icon.png",
+    image:"/image/2023Q1moderatorrewards_icon.png",
     id:1,
   },
   {
-    image:"/image/2022Q2rewards_icon.png",
+    image:"/image/2023Q1ambassadorrewards_icon.png",
     id:2,
-  },
-  {
-    image:"/image/2022Q2rewards_icon.png",
-    id:3,
-  },
+  }
 ]
 
 export function WarriorAward() {
