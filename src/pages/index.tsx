@@ -16,7 +16,7 @@ export default function Home() {
         image='/image/social_card.png'
       />
       <div className='bg-blackColor'>
-        <div className='bg-bgWave bg-contain bg-repeat bg-center'>
+        <div className='bg-bgWave bg-cover bg-repeat bg-center'>
           <div className='max-w-7xl mx-auto'>
             
             <section>
@@ -54,12 +54,6 @@ export default function Home() {
             </section>
           <WarriorsList/>
           <WarriorAward/>
-          </div>
-        </div>
-      </div>
-      <div className='bg-blackColor'>
-        <div className='bg-bgImage bg-contain bg-repeat bg-center'>
-          <div className='max-w-7xl mx-auto'>
           <ContributionBoard/>
           <Recruit/>
           <div id='apply'>
@@ -67,9 +61,7 @@ export default function Home() {
           </div>
           </div>
         </div>
-      </div>
-
-          
+      </div>         
       
     </>
   )

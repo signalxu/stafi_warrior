@@ -13,7 +13,7 @@ export function WarriorsList() {
       avatar:'/image/avatar_1.png',
       name:'Adam',
       description:'Adam is a crypto advocate since 2016, making a true difference in this world is what he strives for. ',
-      twitter_url:'/',
+      twitter_url:'https://twitter.com/frostyfoxes',
       twitter_username:'@frostyfoxes',
     },
     {
@@ -22,7 +22,7 @@ export function WarriorsList() {
       avatar:'/image/avatar_2.png',
       name:'AlphaTower',
       description:'An Air Traffic Controller by profession and a Web3 enthusiast. A Discord Community Manager/Moderator for Web3 projects.',
-      twitter_url:'/',
+      twitter_url:'https://twitter.com/EB_fifth',
       twitter_username:'@EB_fifth', 
     },
     {
@@ -31,7 +31,7 @@ export function WarriorsList() {
       avatar:'/image/avatar_3.png',
       name:'Miracle Ikechi',
       description:"It's Miracle over here, a blockchain enthusiast from Nigeria and I'm quite busy making sure you all have the best on StaFi twitter handles.",
-      twitter_url:'/',
+      twitter_url:'https://twitter.com/Miles_From_Town',
       twitter_username:'@Mazi55480281',
     },
     {
@@ -40,7 +40,7 @@ export function WarriorsList() {
       avatar:'/image/avatar_4.png',
       name:'Aniel Essien',
       description:"I am a realist, dad's youngest, a blockchain preacher, If you want to discuss come to the forum, let's have some fun 😉",
-      twitter_url:'/',
+      twitter_url:'https://twitter.com/joshua_aniel',
       twitter_username:'@joshua_aniel',
     },
     {
@@ -49,7 +49,7 @@ export function WarriorsList() {
       avatar:'/image/avatar_5.png',
       name:'Dayal',
       description:"A crypto enthusiast who strongly believes in Blockchain Technology and DeFi. Self-Motivated and Get Going person, a pet lover by nature.",
-      twitter_url:'/',
+      twitter_url:'https://twitter.com/DayalKS2',
       twitter_username:'@DayalKS2',
     },
     {
@@ -58,7 +58,7 @@ export function WarriorsList() {
       avatar:'/image/avatar_6.png',
       name:'Rohit Chatterjee',
       description:"Electronics engineer who loves writing about latest blockchain projects. Recently got into creating NFTs as well.",
-      twitter_url:'/',
+      twitter_url:'https://twitter.com/aaboltaabol',
       twitter_username:'@aaboltaabol',
     },
     {
@@ -67,7 +67,7 @@ export function WarriorsList() {
       avatar:'/image/avatar_7.png',
       name:'Alpha Chukwunelo',
       description:"I'm Alpha Chukwunelo and being the first is my hobby 😂. I'm a crypto enthusiast, Arsenal fan, Cosmonaut and Web3 Privacy merchant.",
-      twitter_url:'/',
+      twitter_url:'https://twitter.com/AlpharezCC',
       twitter_username:'@AlpharezCC',
     },
     {
@@ -76,7 +76,7 @@ export function WarriorsList() {
       avatar:'/image/avatar_8.png',
       name:'Nsikak Joseph',
       description:"I'm a content developer, and graphic designer, with vast experience in the blockchain space. I am driven by the zeal to promote the adoption of crypto in Africa",
-      twitter_url:'/',
+      twitter_url:'https://twitter.com/_brownish6',
       twitter_username:'@brownish6',
     },
     {
@@ -85,8 +85,8 @@ export function WarriorsList() {
       avatar:'/image/avatar_9.png',
       name:'Delphin Amonle',
       description:'I started out my Blockchain journey since 2019 as "buy-and-hold" person. In only three years of this journey, I have been named Ambassador for some Crypto Brands.',
-      twitter_url:'/',
-      twitter_username:'@Mazi55480281',
+      twitter_url:'https://twitter.com/delkind26',
+      twitter_username:'@delkind26',
     },
     {
       id:10,
@@ -94,7 +94,7 @@ export function WarriorsList() {
       avatar:'/image/avatar10_icon.png',
       name:'Kenny',
       description:"Hi, I'm Kenny from Nigeria and I've been an adopter of the Blockchain technology for a few years new. Happy to Be a StaFi Warrior.",
-      twitter_url:'/',
+      twitter_url:'https://twitter.com/cosmosadvocate',
       twitter_username:'@cosmosadvocate',
     },
     {
@@ -103,7 +103,7 @@ export function WarriorsList() {
       avatar:'/image/avatar11_icon.png',
       name:'Miracle Ikechi',
       description:"I’m Joshua Ikechukwu here. I’m a huge fan of cosmos and I’ve been with them as a dedicated community member for over a year.",
-      twitter_url:'/',
+      twitter_url:'https://twitter.com/Joshyysmartt',
       twitter_username:'@Joshyysmartt',
     },
   ]
@@ -183,7 +183,7 @@ export function WarriorsList() {
                   </div>
                 </div>
 
-                <div className='px-4 py-6'>
+                <div className='px-4 pt-6 pb-12'>
                   {ModeratorList.map((item) => (
                     <div className='mt-12' key={item.id}>
                       <Disclosure >
@@ -222,7 +222,7 @@ export function WarriorsList() {
                   </div>
                 </div>
 
-                <div className='px-4 py-6'>
+                <div className='px-4 pt-6 pb-12'>
                   {ambassdorList.map((item) => (
                     <div className='mt-12' key={item.id}> 
                       <Disclosure >
