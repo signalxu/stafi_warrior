@@ -28,7 +28,9 @@ export default function Home() {
                     <Link href="#apply">
                       <button className='bg-gradient-to-r from-#0093ED to-#00F3AB text-black text-sm md:text-base font-bold px-8 py-4 md:px-10 md:py-4 rounded-[12px]'> Apply Now</button>
                     </Link>
-                    <button className='border-[1px]	border-#5B6872 text-#9DAFBE text-sm md:text-base font-bold px-8 py-4 md:px-10 md:py-4 rounded-[12px]'> Learn More</button>
+                    <Link href="https://medium.com/stafi/stafi-warriors-program-79bdc4b6a447" target="_blank">
+                      <button className='border-[1px]	border-#5B6872 text-#9DAFBE text-sm md:text-base font-bold px-8 py-4 md:px-10 md:py-4 rounded-[12px]'> Learn More</button>
+                    </Link>
                   </div>
                   <p className='text-center text-#5B6872 text-sm md:text-base mt-16 px-4 md:px-32 tracking-wide md:tracking-wide leading-relaxed md:leading-relaxed'>
                     StaFi Warriors team consists of the community member who believe StaFi‘s concepts and prospects deeply. They are working together with the core team to advocate and generalize StaFi’s vision and mission to build an open, free and self-governed StaFi community.
