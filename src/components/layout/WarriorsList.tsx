@@ -6,7 +6,7 @@ import Link from 'next/link'
 
 export function WarriorsList() {
   
-  const warriorsList = [
+  const warriorsModeratorList = [
     {
       id:1,
       title:'Community Manager',
@@ -61,8 +61,10 @@ export function WarriorsList() {
       twitter_url:'https://twitter.com/aaboltaabol',
       twitter_username:'@aaboltaabol',
     },
+  ]
+  const warriorsAmbassadorList = [
     {
-      id:7,
+      id:1,
       title:'StaFi Ambassador',
       avatar:'/image/avatar_7.png',
       name:'Alpha Chukwunelo',
@@ -71,7 +73,7 @@ export function WarriorsList() {
       twitter_username:'@AlpharezCC',
     },
     {
-      id:8,
+      id:2,
       title:'StaFi Ambassador',
       avatar:'/image/avatar_8.png',
       name:'Nsikak Joseph',
@@ -80,7 +82,7 @@ export function WarriorsList() {
       twitter_username:'@brownish6',
     },
     {
-      id:9,
+      id:3,
       title:'StaFi Ambassador',
       avatar:'/image/avatar_9.png',
       name:'Delphin Amonle',
@@ -89,7 +91,7 @@ export function WarriorsList() {
       twitter_username:'@delkind26',
     },
     {
-      id:10,
+      id:4,
       title:'StaFi Ambassador',
       avatar:'/image/avatar10_icon.png',
       name:'Kenny',
@@ -98,7 +100,7 @@ export function WarriorsList() {
       twitter_username:'@cosmosadvocate',
     },
     {
-      id:11,
+      id:5,
       title:'StaFi Ambassador',
       avatar:'/image/avatar11_icon.png',
       name:'Miracle Ikechi',
@@ -185,7 +187,7 @@ export function WarriorsList() {
 
                 <div className='px-4 pt-6 pb-12'>
                   {ModeratorList.map((item) => (
-                    <div className='mt-12' key={item.id}>
+                    <div className='mt-8' key={item.id}>
                       <Disclosure >
                       {({ open }) => (
                         <>
@@ -209,10 +211,36 @@ export function WarriorsList() {
                   ))}
                 </div>
               </div>
-            </section>
+            </section>    
 
-            <section>
-              <div className="bg-[#172636]/10 border-[1px] border-[#1A2835] rounded-[16px] mt-10 md:mt-20">
+          </div>
+
+          <div className='col-span-2 mt-10 md:mt-0'>
+            <div className='grid grid-cols-2 md:grid-cols-3 gap-4'>
+            { warriorsModeratorList.map((item) => (
+              <AvatarCard
+                key = {item.id}
+                title = {item.title}
+                name = {item.name}
+                image = {item.avatar}
+                description = {item.description}
+                twitter_url = {item.twitter_url}
+                twitter_username = {item.twitter_username}
+              />
+
+            ))}
+
+            
+            </div>
+
+          </div>
+        
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-3 md:gap-8 mt-16">
+          <div className="col-span-1">
+          <section>
+              <div className="bg-[#172636]/10 border-[1px] border-[#1A2835] rounded-[16px] mt-10 md:mt-0">
                 <div className="flex mt-4">
                   <div className="h-16 w-10 bg-[#0095EB] float-left rounded-tl-[6px] rounded-tr-[59px] rounded-bl-[6px] rounded-br-[59px]" style={{boxShadow:"6px -15px 70px #0095EB"}}>
                   </div>
@@ -224,7 +252,7 @@ export function WarriorsList() {
 
                 <div className='px-4 pt-6 pb-12'>
                   {ambassdorList.map((item) => (
-                    <div className='mt-12' key={item.id}> 
+                    <div className='mt-8' key={item.id}> 
                       <Disclosure >
                       {({ open }) => (
                         <>
@@ -254,7 +282,7 @@ export function WarriorsList() {
 
           <div className='col-span-2 mt-10 md:mt-0'>
             <div className='grid grid-cols-2 md:grid-cols-3 gap-4'>
-            { warriorsList.map((item) => (
+            { warriorsAmbassadorList.map((item) => (
               <AvatarCard
                 key = {item.id}
                 title = {item.title}
@@ -271,7 +299,8 @@ export function WarriorsList() {
             </div>
 
           </div>
-        
+
+
         </div>
 
       </div>
