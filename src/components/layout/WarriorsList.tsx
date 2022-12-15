@@ -185,7 +185,7 @@ export function WarriorsList() {
 
                 <div className='px-4 py-6'>
                   {ModeratorList.map((item) => (
-                    <div className='mt-6' key={item.id}>
+                    <div className='mt-12' key={item.id}>
                       <Disclosure >
                       {({ open }) => (
                         <>
@@ -224,8 +224,8 @@ export function WarriorsList() {
 
                 <div className='px-4 py-6'>
                   {ambassdorList.map((item) => (
-                    <div className='mt-6'>
-                      <Disclosure key={item.id}>
+                    <div className='mt-12' key={item.id}> 
+                      <Disclosure >
                       {({ open }) => (
                         <>
                           <Disclosure.Button className="text-xl text-#9DAFBE flex gap-4 items-center">

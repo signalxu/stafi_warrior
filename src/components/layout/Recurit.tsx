@@ -11,7 +11,7 @@ export function Recruit() {
         <h2 className="text-white font-anton text-4xl md:text-5xl text-center mt-6 tracking-[.3em] md:tracking-[.3em]">
           You will Get
         </h2>
-        <div className="px-2 md:px-12 py-12 md:py-16 bg-gradient-to-b from-#1F2D41 via-#172231 to-#070B10 border-[1px] border-[#1A2835] mt-10 rounded-[15px]">
+        <div className="px-2 md:px-12 py-12 md:py-16 border-[1px] border-[#1A2835] mt-10 rounded-[15px]" style={{background:"linear-gradient(180deg, rgba(31, 45, 65, 0.5) -72.35%, rgba(23, 34, 49, 0.339914) 77.97%, rgba(7, 11, 16, 5e-05) 150.61%)"}}>
           <h3 className="text-center text-base md:text-xl text-white font-anton tracking-[.3em] md:tracking-[.3em]">
             Financial Support
           </h3>
