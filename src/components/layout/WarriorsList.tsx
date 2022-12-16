@@ -99,15 +99,6 @@ export function WarriorsList() {
       twitter_url:'https://twitter.com/cosmosadvocate',
       twitter_username:'@cosmosadvocate',
     },
-    {
-      id:5,
-      title:'StaFi Ambassador',
-      avatar:'/image/avatar11_icon.png',
-      name:'Miracle Ikechi',
-      description:"I’m Joshua Ikechukwu here. I’m a huge fan of cosmos and I’ve been with them as a dedicated community member for over a year.",
-      twitter_url:'https://twitter.com/Joshyysmartt',
-      twitter_username:'@Joshyysmartt',
-    },
   ]
   
   const ModeratorList = [
