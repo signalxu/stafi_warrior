@@ -31,7 +31,7 @@ module.exports = {
       },
       backgroundImage: {
         'bgImage': "url('/image/bg_image.png')",
-        'bgWave':"url('/image/bg_wave.png')",
+        'bgWave':"url('/image/bgwave.png')",
       },
     },
   },
