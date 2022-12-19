@@ -14,6 +14,7 @@ export default function Home() {
         title='StaFi Warriors Team'
         description='StaFi Warriors team consists of the community member who believe StaFi‘s concepts and prospects deeply. They are working together with the core team to advocate and generalize StaFi’s vision and mission to build an open, free and self-governed StaFi community.'
         image='/image/social_card.png'
+        url='https://warrior.stafi.io'
       />
       <div className='bg-blackColor'>
         <div className='bg-bgWave bg-cover bg-repeat bg-center'>

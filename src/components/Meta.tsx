@@ -20,7 +20,7 @@ export function Meta({
 
 }:MetaProps){
   const router = useRouter();
-  const imageUrl = `${url}/social/${image || 'default.png'}`;
+  const imageUrl = url + image;
   const path = pathname || router.pathname;
   
   return (
@@ -29,7 +29,7 @@ export function Meta({
 
       <meta name="description" content={description} />
 
-      <meta property="og:url" content={`${url}${path}`} />
+      <meta property="og:url" content={url} />
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
       <meta property="og:image" content={imageUrl} />
